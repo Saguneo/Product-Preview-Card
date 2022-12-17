@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Saguneo/Product-Preview-Card)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://your-live-site-url.com](https://product-preview-card-six-red.vercel.app/)
 
 ## My process
 
