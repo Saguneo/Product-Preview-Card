@@ -27,10 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
-**Desktop Preview:**
+**- Desktop Preview:**
 ![](./images/desktop-preview.jpg)
 
-**Mobile Preview**
+**- Mobile Preview**
 ![](./images/mobile-preview.jpg)
 
 
