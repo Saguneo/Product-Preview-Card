@@ -1,0 +1,170 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+
+    padding-top: 10%;
+    margin:auto;
+    display: flex;
+    width: 500px;
+    
+}
+
+.content {
+
+    background-color: white;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+    border-radius: 0 10px 10px 0;
+    
+    
+    
+}
+
+.header {
+
+    padding-top: .8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+
+}
+
+.image {
+
+    border-radius: 10px 0 0 10px;
+    height: auto;
+    height: 360px;
+    width: 250px;
+    
+}
+
+.title {
+
+    font-family: 'Fraunces', serif;
+    font-size: 26px;
+
+}
+
+.description {
+
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+
+
+}
+
+.price {
+
+    font-size: 30px;
+    font-family: 'Fraunces', serif;    
+    display: inline;
+    color: hsl(158, 36%, 37%);
+}
+
+.price span {
+
+    vertical-align: middle;
+    padding-left: .5rem;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(158, 36%, 37%);
+    text-decoration:line-through;
+
+
+}
+
+.btn {
+
+
+    margin-top: 1rem;
+    padding: .8rem 4rem;
+    border-radius: 5px;
+    font-size: 9px;
+    font-weight: 700;
+    border: none;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: hsl(212, 21%, 14%);
+}
+
+.cart {
+
+    padding-right: 5px;
+    vertical-align: middle;
+    transform: scale(1);
+    
+}
+
+
+
+.footer {
+    padding-top: 1rem;
+}
+
+.footer { font-size: 11px; text-align: center; }
+.footer a { color: hsl(228, 45%, 44%); }
+
+.image2 {
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    .image {
+        display: none;
+    }
+
+    .image2 {
+        display: block;
+    }
+   
+    .image2 {
+
+        width: 307px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .container {
+
+        display: flex;
+        margin-left: 50%;
+        width: 1000px;
+        display:grid;
+
+    }
+
+    .content {
+        width: 250px;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .btn {
+        width: 260px;
+        padding-bottom: 10px;
+        justify-content: center;
+        margin-bottom: 1.3rem;
+    }
+
+    .footer {
+        align-items: center;
+    }
+
+    .footer {
+        position:relative;
+        left: 150px;        
+
+    }
+
+}
